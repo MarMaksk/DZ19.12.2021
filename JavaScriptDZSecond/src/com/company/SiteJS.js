@@ -36,8 +36,8 @@ const cock = () => {
     let res = document.cookie.split(';')
     for (let i = 0; i < res.length; i++) {
         let mass = res.toString().split('=')
-     //   console.log(`${mass[i]}`, `${mass[i + 1]}`, `${mass[i + 2].replace(',', '')}`, `${mass[i + 2].replace(',', '')}(${mass[i + 1]})`)
-        //createElement(`${mass[i]}`, `${mass[i + 1]}`, `${mass[i + 2]}`, `${mass[i + 2].replaceAll(',', '')}(${mass[i + 1]})`)
+        console.log(`${mass[i]}`, `${mass[i + 1]}`, `${mass[i + 2].replace(',', '')}`, `${mass[i + 2].replace(',', '')}(${mass[i + 1]})`)
+        createElement(`${mass[i]}`, `${mass[i + 1]}`, `${mass[i + 2]}`, `${mass[i + 2].replaceAll(',', '')}(${mass[i + 1]})`)
     }
 }
 
